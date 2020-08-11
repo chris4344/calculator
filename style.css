@@ -1,0 +1,46 @@
+.outer-container {
+    background-color: black;
+    width: 350px;
+    height: 400px;
+    margin-top: 30px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+    padding: 20px;
+    width: 40%;
+}
+
+.input {
+    font-size: 30px;
+}
+
+.num,
+.op {
+    height: 60px;
+    width: 60px;
+    color: white;
+    font-size: 20px;
+    border-radius: 100%;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+.num {
+    background-color: orange;
+}
+
+.op {
+    background-color: gray;
+}
+
+p {
+    padding-top: 5px;
+    color: white;
+    height: 20px;
+}
